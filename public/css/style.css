@@ -1,3 +1,41 @@
 html {
     background: url("../img/baseball-website-img.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.logo-div {
+    background-color: transparent;
+    border: 2px solid rgb(14, 51, 134);
+    border-radius: 4px;
+    box-shadow: 2px 2px #CC3433;
+}
+
+.text {
+    background-color: #36454F;
+    color:white;
+    opacity: 1;
+    text-align: center;
 }
